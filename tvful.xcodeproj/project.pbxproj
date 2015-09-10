@@ -42,11 +42,11 @@
 			isa = PBXGroup;
 			children = (
 				A1CFC3661BA1281A00BBB244 /* Code */,
+				E60E3201EB45B4BFF5C2C1A7 /* Frameworks */,
+				BA9C344539812F6F27D85FF9 /* Pods */,
 				A1CFC3651BA1281A00BBB244 /* Products */,
 				A1CFC3761BA1282600BBB244 /* Resources */,
 				A1CFC3771BA1283600BBB244 /* Supporting Files */,
-				BA9C344539812F6F27D85FF9 /* Pods */,
-				E60E3201EB45B4BFF5C2C1A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +130,7 @@
 		A1CFC35C1BA1281A00BBB244 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Boris Bügling";
 				TargetAttributes = {
