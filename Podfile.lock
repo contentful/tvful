@@ -1,0 +1,50 @@
+PODS:
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - ContentfulDeliveryAPI (1.8.0):
+    - AFNetworking (~> 2.6.0)
+    - ISO8601DateFormatter
+  - ISO8601DateFormatter (0.7)
+
+DEPENDENCIES:
+  - AFNetworking (from `https://github.com/neonichu/AFNetworking.git`, branch `tvos`)
+  - ContentfulDeliveryAPI (from `https://github.com/contentful/contentful.objc.git`,
+    branch `tvos`)
+  - ISO8601DateFormatter (from `vendor/ISO8601DateFormatter.podspec.json`)
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :branch: tvos
+    :git: https://github.com/neonichu/AFNetworking.git
+  ContentfulDeliveryAPI:
+    :branch: tvos
+    :git: https://github.com/contentful/contentful.objc.git
+  ISO8601DateFormatter:
+    :podspec: vendor/ISO8601DateFormatter.podspec.json
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :commit: 76aeb1765b70f53c29e1450e47787ee0c2025206
+    :git: https://github.com/neonichu/AFNetworking.git
+  ContentfulDeliveryAPI:
+    :commit: beae33f8b2ce624e92d544005e8de668a08bf3c6
+    :git: https://github.com/contentful/contentful.objc.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 1e9021bbdfc9d4917be89b2bb4fe40e0f506cbc3
+  ContentfulDeliveryAPI: 35d3e5497857da2842d28ac8e14968abf3957f72
+  ISO8601DateFormatter: efdd2560138ab8fdb41c0e77bb41d4b530d40071
+
+COCOAPODS: 0.39.0.beta.4
