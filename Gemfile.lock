@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/CocoaPods/CocoaPods.git
-  revision: 95f6be217115e40630daf35a7518ae34a40344df
+  revision: 25bcc14b04260939144496cc08f091061f5500de
   branch: tvos
   specs:
     cocoapods (0.39.0.beta.4)

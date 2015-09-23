@@ -5,6 +5,7 @@ PODS:
     - AFNetworking/Reachability (= 2.6.0)
     - AFNetworking/Security (= 2.6.0)
     - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/tvOS-UIKit (= 2.6.0)
     - AFNetworking/UIKit (= 2.6.0)
   - AFNetworking/NSURLConnection (2.6.0):
     - AFNetworking/Reachability
@@ -13,6 +14,8 @@ PODS:
   - AFNetworking/Reachability (2.6.0)
   - AFNetworking/Security (2.6.0)
   - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/tvOS-UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
   - ContentfulDeliveryAPI (1.8.0):
     - AFNetworking (~> 2.6.0)
     - ISO8601DateFormatter
@@ -36,15 +39,15 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AFNetworking:
-    :commit: 76aeb1765b70f53c29e1450e47787ee0c2025206
+    :commit: 61779cc0d963b945efb3eb399b1dbdeec9502c54
     :git: https://github.com/neonichu/AFNetworking.git
   ContentfulDeliveryAPI:
-    :commit: beae33f8b2ce624e92d544005e8de668a08bf3c6
+    :commit: 0feddcf22e9ad340588dc8f7a21bf65a74e942e9
     :git: https://github.com/contentful/contentful.objc.git
 
 SPEC CHECKSUMS:
-  AFNetworking: 1e9021bbdfc9d4917be89b2bb4fe40e0f506cbc3
-  ContentfulDeliveryAPI: 35d3e5497857da2842d28ac8e14968abf3957f72
+  AFNetworking: 54e0785c839e7cdceef459562b73312fe77572a1
+  ContentfulDeliveryAPI: bf8176178dbd29c7cda09ba8fd1f28455056b0e7
   ISO8601DateFormatter: efdd2560138ab8fdb41c0e77bb41d4b530d40071
 
 COCOAPODS: 0.39.0.beta.4
