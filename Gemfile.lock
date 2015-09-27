@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/CocoaPods/CocoaPods.git
-  revision: 25bcc14b04260939144496cc08f091061f5500de
-  branch: tvos
+  revision: a12040443e259c1e8549c5009c4096892a62032b
+  branch: master
   specs:
     cocoapods (0.39.0.beta.4)
       activesupport (>= 3.2.15)
@@ -21,18 +21,18 @@ GIT
 
 GIT
   remote: https://github.com/CocoaPods/Core.git
-  revision: f60d8b4f28223ea2e02316efa52a612153d7fe2e
-  branch: tvos-support
+  revision: 9cc774457e8326e7fed6961bab83cefeac67f266
+  branch: master
   specs:
     cocoapods-core (0.39.0.beta.4)
-      activesupport (>= 3.2.15)
+      activesupport (>= 4.0.2)
       fuzzy_match (~> 2.0.4)
       nap (~> 1.0)
 
 GIT
   remote: https://github.com/CocoaPods/Xcodeproj.git
-  revision: b208640ffd04ffb1ec1becc085e8b3f3759ff8f1
-  branch: tvos-support
+  revision: 8347cca0149d6506c0a785a8faa7f6a17dee29fd
+  branch: master
   specs:
     xcodeproj (0.27.2)
       activesupport (>= 3)
@@ -63,7 +63,7 @@ GEM
     fuzzy_match (2.0.4)
     i18n (0.7.0)
     json (1.8.3)
-    minitest (5.8.0)
+    minitest (5.8.1)
     molinillo (0.3.1)
     nap (1.0.0)
     netrc (0.7.8)
