@@ -2,7 +2,8 @@
 
 all:
 	xcodebuild -workspace tvful.xcworkspace \
-		-scheme tvful -sdk appletvsimulator
+		-scheme tvful -sdk appletvsimulator \
+		-destination 'name=Apple TV 1080p'
 
 setup:
 	bundle install

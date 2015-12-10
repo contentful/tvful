@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44B3678FB24681F0B63E5895 /* Pods_tvful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC092AE16563F3C9165A24A2 /* Pods_tvful.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		44B3678FB24681F0B63E5895 /* Pods_tvful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC092AE16563F3C9165A24A2 /* Pods_tvful.framework */; };
 		A1CFC3681BA1281A00BBB244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CFC3671BA1281A00BBB244 /* AppDelegate.swift */; };
 		A1CFC36A1BA1281A00BBB244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CFC3691BA1281A00BBB244 /* ViewController.swift */; };
 		A1CFC36D1BA1281A00BBB244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CFC36B1BA1281A00BBB244 /* Main.storyboard */; };
@@ -279,6 +279,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				ENABLE_BITCODE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
